@@ -64,7 +64,3 @@ Tout le projet est contenu dans un seul **notebook Jupyter** :
 ---
 
 📚 *Projet universitaire - Ynov 3A Data & IA - 2025*
-
-```
-
-
