@@ -1,79 +1,70 @@
-````markdown
 <p align="center">
-  <img src="images/banner.png" alt="Analyse de Données Pokémon" width="600"/>
+  <img src="images/banner.png" alt="Analyse de Données Pokémon" width="200">
 </p>
 
 # Analyse de Données Pokémon
 
-Ce projet a été réalisé dans le cadre du cours **Analyse et exploration de données** par [Akemi-ito](https://github.com/Akemi-ito) et [Wawanke](https://github.com/Wawanke).
+Projet réalisé dans le cadre du cours **Analyse et exploration de données**  
+par [Akemi-ito](https://github.com/Akemi-ito) & [Wawanke](https://github.com/Wawanke)
 
-L’objectif est d’explorer et analyser un dataset Pokémon pour répondre à la problématique suivante :
+---
 
-> **Y a-t-il une différence de statistiques notable entre les Pokémon qui ont une évolution et ceux qui n'en ont pas ?**
+## 🎯 Objectif
 
-## 📁 Structure du projet
+> _Y a-t-il une différence de statistiques notable entre les Pokémon qui ont une évolution et ceux qui n’en ont pas ?_
 
-Tout le projet est contenu dans un seul notebook Jupyter :
+---
 
-- 📓 `analyse_pokemon.ipynb` : code, visualisations, tests statistiques, et conclusions.
+## 🧪 Contenu
 
-## 🧠 Démarche
+Tout le projet est contenu dans un seul **notebook Jupyter** :
 
-Nous avons :
+- 📥 Chargement et enrichissement du dataset
+- 🧼 Nettoyage et création de nouvelles colonnes
+- 📊 Analyse statistique descriptive
+- 📈 Visualisations avec `matplotlib` et `seaborn`
+- 🧠 Interprétation des résultats
 
-- Nettoyé et enrichi les données avec des colonnes personnalisées
-- Réalisé une analyse descriptive
-- Construit des visualisations avec `seaborn` et `matplotlib`
-- Mené des tests statistiques (corrélations, moyennes, etc.)
-- Interprété les résultats pour répondre à la problématique
+---
 
 ## 📊 Dataset
 
-Le jeu de données original provient de Kaggle :  
-👉 https://www.kaggle.com/datasets/mrdew25/pokemon-database/data
+- **Source originale :**  
+  [📦 Pokémon Database sur Kaggle](https://www.kaggle.com/datasets/mrdew25/pokemon-database/data)
 
-Il a été **modifié** avec l’ajout de données personnalisées (comme les chaînes d’évolution ou des regroupements par génération).
+- **Modifications :**  
+  Nous avons enrichi le dataset avec des **données personnalisées**
 
+---
 ## ▶️ Exécution
 
-1. Clone le repo :
+1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/Akemi-ito/Analyse-de-donnee-Pokemon.git
    cd Analyse-de-donnee-Pokemon
-````
 
-2. Installe les dépendances :
+2. **Installer les dépendances** :
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Lance le notebook :
+3. **Lancer le notebook** :
 
    ```bash
    jupyter notebook analyse_pokemon.ipynb
    ```
 
-## ✅ Requirements
 
-Voici le contenu du fichier `requirements.txt` :
-
-```
-pandas
-numpy
-matplotlib
-seaborn
-scipy
-jupyter
-```
-
-## 🧑‍🏫 Réalisé par
+## 🧑‍💻 Auteurs
 
 * [Akemi-ito](https://github.com/Akemi-ito)
 * [Wawanke](https://github.com/Wawanke)
 
 ---
 
-*Projet pédagogique réalisé dans le cadre de la 3e année Ynov – Data & IA.*
+📚 *Projet universitaire - Ynov 3A Data & IA - 2025*
 
 ```
+
+
