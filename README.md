@@ -2,65 +2,79 @@
   <img src="images/banner.png" alt="Analyse de Données Pokémon" width="200">
 </p>
 
-# Analyse de Données Pokémon
+# Pokémon Data Analysis 🎮🔍
 
-Projet réalisé dans le cadre du cours **Analyse et exploration de données**  
-par [Akemi-ito](https://github.com/Akemi-ito) & [Wawanke](https://github.com/Wawanke)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Pandas](https://img.shields.io/badge/Analysis-Pandas-yellow)
+![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-red)
+![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-lightblue)
+![Jupyter](https://img.shields.io/badge/Environment-Jupyter-orange)
 
----
-
-## 🎯 Objectif
-
-> _Y a-t-il une différence de statistiques notable entre les Pokémon qui ont une évolution et ceux qui n’en ont pas ?_
-
----
-
-## 🧪 Contenu
-
-Tout le projet est contenu dans un seul **notebook Jupyter** :
-
-- 📥 Chargement et enrichissement du dataset
-- 🧼 Nettoyage et création de nouvelles colonnes
-- 📊 Analyse statistique descriptive
-- 📈 Visualisations avec `matplotlib` et `seaborn`
-- 🧠 Interprétation des résultats
+Un projet d'analyse de données Pokémon utilisant Python, Pandas et Matplotlib/Seaborn pour explorer les statistiques, les types, et les relations entre les Pokémon.
 
 ---
 
-## 📊 Dataset
-
-- **Source originale :**  
-  [📦 Pokémon Database sur Kaggle](https://www.kaggle.com/datasets/mrdew25/pokemon-database/data)
-
-- **Modifications :**  
-  Nous avons enrichi le dataset avec des **données personnalisées**
+## 📌 Fonctionnalités
+- **Analyse complète** des statistiques de base (PV, Attaque, Défense, etc.).
+- **Visualisations clés** :
+  - Distribution des types Pokémon.
+  - Corrélations entre statistiques.
+  - Comparaisons par génération ou légendaire/non-légendaire.
+- **Outils** :
+  - Nettoyage des données avec Pandas.
+  - Graphiques interactifs.
 
 ---
-## ▶️ Exécution
 
+## 🛠 Installation
 1. **Cloner le dépôt** :
    ```bash
    git clone https://github.com/Akemi-ito/Analyse-de-donnee-Pokemon.git
    cd Analyse-de-donnee-Pokemon
+   ```
 
 2. **Installer les dépendances** :
-
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Lancer le notebook** :
-
+3. **Lancer Jupyter Notebook** (si applicable) :
    ```bash
-   jupyter notebook analyse_pokemon.ipynb
+   jupyter notebook
    ```
-
-
-## 🧑‍💻 Auteurs
-
-* [Akemi-ito](https://github.com/Akemi-ito)
-* [Wawanke](https://github.com/Wawanke)
+   Ouvrez ensuite le fichier `.ipynb` depuis l'interface.
 
 ---
 
-📚 *Projet universitaire - Ynov B3A Data & IA - 2025*
+## 📊 Utilisation
+### Pour les notebooks Jupyter :
+1. Exécutez les cellules dans l'ordre pour :
+   - Charger le dataset (`pokemon.csv`).
+   - Générer des analyses et graphiques.
+
+---
+
+## 📂 Structure du Projet
+```
+Analyse-de-donnee-Pokemon/
+├── dataset/                   
+│   └── PokemonDatabase.csv        # Dataset principal
+├── images/  
+│   └── banner.png
+├── pokemon.ipynb         
+├── requirements.txt         # Dépendances
+└── README.md
+```
+
+---
+
+## 🔧 Technologies
+- **Python 3.8+**
+- **Pandas** : Nettoyage et analyse des données.
+- **Matplotlib/Seaborn** : Visualisations statiques.
+- **Jupyter Notebook** : Environnement interactif.
+
+---
+
+## 🙏 Remerciements
+- Dataset (Kaggle) : [Pokémon Database](https://www.kaggle.com/datasets/abcsds/pokemon)
